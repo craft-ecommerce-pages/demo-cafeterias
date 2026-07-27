@@ -1,0 +1,17 @@
+{
+  "badge_category": "favorito",
+  "categories": {
+    "cafes": "Cafés",
+    "bebidas": "Bebidas Frías",
+    "pasteleria": "Pastelería",
+    "desayunos": "Desayunos",
+    "snacks": "Snacks"
+  },
+  "currency": "$",
+  "site_title": "Café Demo — Menú",
+  "store_name": "Café Demo",
+  "theme_primary": "#B87245",
+  "theme_accent": "#E8C9A0",
+  "whatsapp_message": "¡Hola! Me gustaría hacer un pedido:",
+  "whatsapp_number": "593963769671"
+}
