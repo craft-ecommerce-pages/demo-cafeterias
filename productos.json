@@ -1,122 +1,201 @@
 [
   {
-    "id": "sk-001",
-    "slug": "salmon-roll",
-    "nombre": "Salmon Roll",
-    "precio": 12.50,
-    "precio_promo": "",
-    "categorias": ["makis"],
-    "descripcion": "8 piezas con salmón noruego fresco, aguacate y queso crema. Cubierto con sésamo dorado y salsa ponzu.",
-    "stock": null,
-    "imagenes": [],
-    "variantes": [],
-    "sku": "MK-001"
+    "id": 1,
+    "slug": "espresso",
+    "nombre": "Espresso",
+    "descripcion": "Concentrado puro de origen único, extracción de 25 segundos. Intenso y equilibrado.",
+    "precio": 2.50,
+    "categorias": ["cafes"],
+    "imagenes": []
   },
   {
-    "id": "sk-002",
-    "slug": "dragon-roll",
-    "nombre": "Dragon Roll",
-    "precio": 15.90,
-    "precio_promo": "",
-    "categorias": ["makis", "chef"],
-    "descripcion": "Tempura de camarón, pepino y aguacate, cubierto con láminas de palta y salsa eel. La firma de la casa.",
-    "stock": null,
-    "imagenes": [],
-    "variantes": [],
-    "sku": "MK-002"
+    "id": 2,
+    "slug": "americano",
+    "nombre": "Americano",
+    "descripcion": "Espresso diluido con agua caliente. Suave en cuerpo, profundo en sabor.",
+    "precio": 3.00,
+    "categorias": ["cafes"],
+    "imagenes": []
   },
   {
-    "id": "sk-003",
-    "slug": "nigiri-salmón",
-    "nombre": "Nigiri Salmón",
-    "precio": 9.50,
-    "precio_promo": "",
-    "categorias": ["nigiri"],
-    "descripcion": "4 piezas de arroz de sushi prensado con láminas de salmón atlántico curado en sal. Servido con wasabi.",
-    "stock": null,
-    "imagenes": [],
+    "id": 3,
+    "slug": "cappuccino",
+    "nombre": "Cappuccino",
+    "descripcion": "Espresso doble con leche vaporizada y abundante espuma cremosa.",
+    "precio": 3.75,
+    "categorias": ["cafes"],
     "variantes": [
       {
-        "name": "Piezas",
+        "name": "Tamaño",
         "options": [
-          { "label": "4 piezas", "price": 9.50 },
-          { "label": "8 piezas", "price": 17.00 }
+          { "label": "Regular 8oz", "price": 3.75 },
+          { "label": "Grande 12oz", "price": 4.25 }
         ]
       }
     ],
-    "sku": "NG-001"
+    "imagenes": []
   },
   {
-    "id": "sk-004",
-    "slug": "sashimi-mix",
-    "nombre": "Sashimi Mix",
-    "precio": 18.00,
-    "precio_promo": "",
-    "categorias": ["sashimi", "chef"],
-    "descripcion": "Selección del chef: atún, salmón, hamachi y pulpo. 12 láminas cortadas al momento. Sin arroz.",
-    "stock": null,
-    "imagenes": [],
-    "variantes": [],
-    "sku": "SA-001"
-  },
-  {
-    "id": "sk-005",
-    "slug": "edamame",
-    "nombre": "Edamame",
-    "precio": 4.50,
-    "precio_promo": "",
-    "categorias": ["entradas"],
-    "descripcion": "Vainas de soja verde cocidas al vapor con sal de mar y toque de aceite de sésamo. El inicio perfecto.",
-    "stock": null,
-    "imagenes": [],
-    "variantes": [],
-    "sku": "EN-001"
-  },
-  {
-    "id": "sk-006",
-    "slug": "miso-soup",
-    "nombre": "Sopa Miso",
-    "precio": 3.50,
-    "precio_promo": "",
-    "categorias": ["entradas"],
-    "descripcion": "Caldo dashi con pasta de miso, tofu sedoso, alga wakame y cebolla de verdeo. Reconfortante y ligera.",
-    "stock": null,
-    "imagenes": [],
-    "variantes": [],
-    "sku": "EN-002"
-  },
-  {
-    "id": "sk-007",
-    "slug": "sake-caliente",
-    "nombre": "Sake Caliente",
-    "precio": 6.00,
-    "precio_promo": "",
-    "categorias": ["bebidas"],
-    "descripcion": "Vino de arroz japonés servido caliente en cerámica tradicional. Suave y aromático.",
-    "stock": null,
-    "imagenes": [],
-    "variantes": [],
-    "sku": "BE-001"
-  },
-  {
-    "id": "sk-008",
-    "slug": "matcha-latte",
-    "nombre": "Matcha Latte",
+    "id": 4,
+    "slug": "latte",
+    "nombre": "Latte",
+    "descripcion": "Espresso con leche vaporizada sedosa. Cremoso, dulce de forma natural.",
     "precio": 4.00,
-    "precio_promo": "",
-    "categorias": ["bebidas"],
-    "descripcion": "Té matcha ceremonial con leche vegetal de avena. Servido frío o caliente.",
-    "stock": null,
-    "imagenes": [],
+    "categorias": ["cafes"],
     "variantes": [
       {
-        "name": "Temperatura",
+        "name": "Tamaño",
         "options": [
-          { "label": "Frío", "price": 4.00 },
-          { "label": "Caliente", "price": 4.00 }
+          { "label": "Regular 12oz", "price": 4.00 },
+          { "label": "Grande 16oz", "price": 4.75 }
         ]
       }
     ],
-    "sku": "BE-002"
+    "imagenes": []
+  },
+  {
+    "id": 5,
+    "slug": "mocha",
+    "nombre": "Mocha",
+    "descripcion": "Espresso con chocolate belga y leche vaporizada. El favorito de siempre.",
+    "precio": 4.50,
+    "categorias": ["cafes"],
+    "imagenes": []
+  },
+  {
+    "id": 6,
+    "slug": "macchiato-caramelo",
+    "nombre": "Macchiato de Caramelo",
+    "descripcion": "Espresso marcado con leche fría, vainilla y hilo de caramelo artesanal.",
+    "precio": 4.75,
+    "precio_promo": "$5.50",
+    "categorias": ["cafes", "favorito"],
+    "imagenes": []
+  },
+  {
+    "id": 7,
+    "slug": "cold-brew",
+    "nombre": "Cold Brew",
+    "descripcion": "Café extraído en frío durante 18 horas. Suave, sin acidez, extraordinariamente refrescante.",
+    "precio": 4.25,
+    "categorias": ["bebidas"],
+    "imagenes": []
+  },
+  {
+    "id": 8,
+    "slug": "frappuccino-caramelo",
+    "nombre": "Frappuccino de Caramelo",
+    "descripcion": "Café helado blended con leche, hielo y salsa de caramelo. Crema batida encima.",
+    "precio": 5.00,
+    "categorias": ["bebidas"],
+    "imagenes": []
+  },
+  {
+    "id": 9,
+    "slug": "matcha-latte-frio",
+    "nombre": "Matcha Latte Frío",
+    "descripcion": "Matcha ceremonial japonés con leche de avena y hielo. Sin azúcar añadida.",
+    "precio": 4.75,
+    "categorias": ["bebidas"],
+    "imagenes": []
+  },
+  {
+    "id": 10,
+    "slug": "limonada-menta",
+    "nombre": "Limonada de Menta",
+    "descripcion": "Limones frescos, menta de la huerta y un toque de jengibre. Artesanal y vigorizante.",
+    "precio": 3.50,
+    "categorias": ["bebidas"],
+    "imagenes": []
+  },
+  {
+    "id": 11,
+    "slug": "croissant-mantequilla",
+    "nombre": "Croissant de Mantequilla",
+    "descripcion": "Laminado a mano con mantequilla francesa. Crujiente por fuera, suave y hojaldrado por dentro.",
+    "precio": 2.75,
+    "categorias": ["pasteleria"],
+    "imagenes": []
+  },
+  {
+    "id": 12,
+    "slug": "muffin-arandanos",
+    "nombre": "Muffin de Arándanos",
+    "descripcion": "Esponjoso, húmedo, repleto de arándanos frescos. Receta de la casa desde 2018.",
+    "precio": 3.00,
+    "categorias": ["pasteleria"],
+    "imagenes": []
+  },
+  {
+    "id": 13,
+    "slug": "cheesecake-frutos-rojos",
+    "nombre": "Cheesecake de Frutos Rojos",
+    "descripcion": "Base de galleta, crema de queso y coulis de frutos rojos del bosque.",
+    "precio": 4.50,
+    "categorias": ["pasteleria", "favorito"],
+    "imagenes": []
+  },
+  {
+    "id": 14,
+    "slug": "brownie-chocolate",
+    "nombre": "Brownie de Chocolate",
+    "descripcion": "Denso, fudgy, con chispas de chocolate 70%. Servido tibio con sal marina.",
+    "precio": 3.25,
+    "categorias": ["pasteleria"],
+    "imagenes": []
+  },
+  {
+    "id": 15,
+    "slug": "tarta-manzana",
+    "nombre": "Tarta de Manzana",
+    "descripcion": "Manzanas caramelizadas con canela sobre masa quebrada. Con helado de vainilla.",
+    "precio": 4.00,
+    "categorias": ["pasteleria"],
+    "imagenes": []
+  },
+  {
+    "id": 16,
+    "slug": "tostadas-aguacate",
+    "nombre": "Tostadas con Aguacate",
+    "descripcion": "Pan de masa madre tostado, aguacate aplastado, huevo pochado y hojuelas de chile.",
+    "precio": 5.75,
+    "categorias": ["desayunos"],
+    "imagenes": []
+  },
+  {
+    "id": 17,
+    "slug": "granola-yogur",
+    "nombre": "Granola con Yogur y Fruta",
+    "descripcion": "Granola artesanal tostada con miel, yogur griego natural y frutas de temporada.",
+    "precio": 4.75,
+    "categorias": ["desayunos"],
+    "imagenes": []
+  },
+  {
+    "id": 18,
+    "slug": "desayuno-completo",
+    "nombre": "Desayuno Completo",
+    "descripcion": "2 huevos revueltos, tocino ahumado, tostadas y jugo de naranja recién exprimido.",
+    "precio": 7.50,
+    "categorias": ["desayunos"],
+    "imagenes": []
+  },
+  {
+    "id": 19,
+    "slug": "sandwich-club",
+    "nombre": "Sándwich Club",
+    "descripcion": "Pollo a la plancha, tomate, lechuga, queso suizo y mayo casera en pan ciabatta.",
+    "precio": 5.50,
+    "categorias": ["snacks"],
+    "imagenes": []
+  },
+  {
+    "id": 20,
+    "slug": "galletas-avena",
+    "nombre": "Galletas de Avena y Pasas",
+    "descripcion": "Crujientes por fuera, suaves por dentro. Avena, canela y pasas sultanas. 3 unidades.",
+    "precio": 2.25,
+    "categorias": ["snacks"],
+    "imagenes": []
   }
 ]
