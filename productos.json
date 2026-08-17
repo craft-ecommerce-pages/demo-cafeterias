@@ -4,8 +4,10 @@
     "slug": "espresso",
     "nombre": "Espresso",
     "descripcion": "Concentrado puro de origen único, extracción de 25 segundos. Intenso y equilibrado.",
-    "precio": 2.50,
-    "categorias": ["cafes"],
+    "precio": 2.5,
+    "categorias": [
+      "cafes"
+    ],
     "imagenes": []
   },
   {
@@ -13,8 +15,10 @@
     "slug": "americano",
     "nombre": "Americano",
     "descripcion": "Espresso diluido con agua caliente. Suave en cuerpo, profundo en sabor.",
-    "precio": 3.00,
-    "categorias": ["cafes"],
+    "precio": 3.0,
+    "categorias": [
+      "cafes"
+    ],
     "imagenes": []
   },
   {
@@ -23,13 +27,21 @@
     "nombre": "Cappuccino",
     "descripcion": "Espresso doble con leche vaporizada y abundante espuma cremosa.",
     "precio": 3.75,
-    "categorias": ["cafes"],
+    "categorias": [
+      "cafes"
+    ],
     "variantes": [
       {
         "name": "Tamaño",
         "options": [
-          { "label": "Regular 8oz", "price": 3.75 },
-          { "label": "Grande 12oz", "price": 4.25 }
+          {
+            "label": "Regular 8oz ($3.75)",
+            "price": 3.75
+          },
+          {
+            "label": "Grande 12oz ($4.25)",
+            "price": 4.25
+          }
         ]
       }
     ],
@@ -40,14 +52,22 @@
     "slug": "latte",
     "nombre": "Latte",
     "descripcion": "Espresso con leche vaporizada sedosa. Cremoso, dulce de forma natural.",
-    "precio": 4.00,
-    "categorias": ["cafes"],
+    "precio": 4.0,
+    "categorias": [
+      "cafes"
+    ],
     "variantes": [
       {
         "name": "Tamaño",
         "options": [
-          { "label": "Regular 12oz", "price": 4.00 },
-          { "label": "Grande 16oz", "price": 4.75 }
+          {
+            "label": "Regular 12oz ($4.00)",
+            "price": 4.0
+          },
+          {
+            "label": "Grande 16oz ($4.75)",
+            "price": 4.75
+          }
         ]
       }
     ],
@@ -58,8 +78,10 @@
     "slug": "mocha",
     "nombre": "Mocha",
     "descripcion": "Espresso con chocolate belga y leche vaporizada. El favorito de siempre.",
-    "precio": 4.50,
-    "categorias": ["cafes"],
+    "precio": 4.5,
+    "categorias": [
+      "cafes"
+    ],
     "imagenes": []
   },
   {
@@ -69,7 +91,10 @@
     "descripcion": "Espresso marcado con leche fría, vainilla y hilo de caramelo artesanal.",
     "precio": 4.75,
     "precio_promo": "$5.50",
-    "categorias": ["cafes", "favorito"],
+    "categorias": [
+      "cafes",
+      "favorito"
+    ],
     "imagenes": []
   },
   {
@@ -78,7 +103,9 @@
     "nombre": "Cold Brew",
     "descripcion": "Café extraído en frío durante 18 horas. Suave, sin acidez, extraordinariamente refrescante.",
     "precio": 4.25,
-    "categorias": ["bebidas"],
+    "categorias": [
+      "bebidas"
+    ],
     "imagenes": []
   },
   {
@@ -86,8 +113,10 @@
     "slug": "frappuccino-caramelo",
     "nombre": "Frappuccino de Caramelo",
     "descripcion": "Café helado blended con leche, hielo y salsa de caramelo. Crema batida encima.",
-    "precio": 5.00,
-    "categorias": ["bebidas"],
+    "precio": 5.0,
+    "categorias": [
+      "bebidas"
+    ],
     "imagenes": []
   },
   {
@@ -96,7 +125,9 @@
     "nombre": "Matcha Latte Frío",
     "descripcion": "Matcha ceremonial japonés con leche de avena y hielo. Sin azúcar añadida.",
     "precio": 4.75,
-    "categorias": ["bebidas"],
+    "categorias": [
+      "bebidas"
+    ],
     "imagenes": []
   },
   {
@@ -104,8 +135,10 @@
     "slug": "limonada-menta",
     "nombre": "Limonada de Menta",
     "descripcion": "Limones frescos, menta de la huerta y un toque de jengibre. Artesanal y vigorizante.",
-    "precio": 3.50,
-    "categorias": ["bebidas"],
+    "precio": 3.5,
+    "categorias": [
+      "bebidas"
+    ],
     "imagenes": []
   },
   {
@@ -114,7 +147,9 @@
     "nombre": "Croissant de Mantequilla",
     "descripcion": "Laminado a mano con mantequilla francesa. Crujiente por fuera, suave y hojaldrado por dentro.",
     "precio": 2.75,
-    "categorias": ["pasteleria"],
+    "categorias": [
+      "pasteleria"
+    ],
     "imagenes": []
   },
   {
@@ -122,8 +157,10 @@
     "slug": "muffin-arandanos",
     "nombre": "Muffin de Arándanos",
     "descripcion": "Esponjoso, húmedo, repleto de arándanos frescos. Receta de la casa desde 2018.",
-    "precio": 3.00,
-    "categorias": ["pasteleria"],
+    "precio": 3.0,
+    "categorias": [
+      "pasteleria"
+    ],
     "imagenes": []
   },
   {
@@ -131,8 +168,11 @@
     "slug": "cheesecake-frutos-rojos",
     "nombre": "Cheesecake de Frutos Rojos",
     "descripcion": "Base de galleta, crema de queso y coulis de frutos rojos del bosque.",
-    "precio": 4.50,
-    "categorias": ["pasteleria", "favorito"],
+    "precio": 4.5,
+    "categorias": [
+      "pasteleria",
+      "favorito"
+    ],
     "imagenes": []
   },
   {
@@ -141,7 +181,9 @@
     "nombre": "Brownie de Chocolate",
     "descripcion": "Denso, fudgy, con chispas de chocolate 70%. Servido tibio con sal marina.",
     "precio": 3.25,
-    "categorias": ["pasteleria"],
+    "categorias": [
+      "pasteleria"
+    ],
     "imagenes": []
   },
   {
@@ -149,8 +191,10 @@
     "slug": "tarta-manzana",
     "nombre": "Tarta de Manzana",
     "descripcion": "Manzanas caramelizadas con canela sobre masa quebrada. Con helado de vainilla.",
-    "precio": 4.00,
-    "categorias": ["pasteleria"],
+    "precio": 4.0,
+    "categorias": [
+      "pasteleria"
+    ],
     "imagenes": []
   },
   {
@@ -159,7 +203,9 @@
     "nombre": "Tostadas con Aguacate",
     "descripcion": "Pan de masa madre tostado, aguacate aplastado, huevo pochado y hojuelas de chile.",
     "precio": 5.75,
-    "categorias": ["desayunos"],
+    "categorias": [
+      "desayunos"
+    ],
     "imagenes": []
   },
   {
@@ -168,7 +214,9 @@
     "nombre": "Granola con Yogur y Fruta",
     "descripcion": "Granola artesanal tostada con miel, yogur griego natural y frutas de temporada.",
     "precio": 4.75,
-    "categorias": ["desayunos"],
+    "categorias": [
+      "desayunos"
+    ],
     "imagenes": []
   },
   {
@@ -176,8 +224,10 @@
     "slug": "desayuno-completo",
     "nombre": "Desayuno Completo",
     "descripcion": "2 huevos revueltos, tocino ahumado, tostadas y jugo de naranja recién exprimido.",
-    "precio": 7.50,
-    "categorias": ["desayunos"],
+    "precio": 7.5,
+    "categorias": [
+      "desayunos"
+    ],
     "imagenes": []
   },
   {
@@ -185,8 +235,10 @@
     "slug": "sandwich-club",
     "nombre": "Sándwich Club",
     "descripcion": "Pollo a la plancha, tomate, lechuga, queso suizo y mayo casera en pan ciabatta.",
-    "precio": 5.50,
-    "categorias": ["snacks"],
+    "precio": 5.5,
+    "categorias": [
+      "snacks"
+    ],
     "imagenes": []
   },
   {
@@ -195,7 +247,9 @@
     "nombre": "Galletas de Avena y Pasas",
     "descripcion": "Crujientes por fuera, suaves por dentro. Avena, canela y pasas sultanas. 3 unidades.",
     "precio": 2.25,
-    "categorias": ["snacks"],
+    "categorias": [
+      "snacks"
+    ],
     "imagenes": []
   }
 ]
